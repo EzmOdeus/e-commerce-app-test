@@ -7,7 +7,7 @@ import Image from "next/image";
 
 // import { ThemeProvider, useTheme } from "next-themes";
 export const metadata = {
-  title: "Next.js 13 with Clerk",
+  title: "Seyam-Store",
 };
 export default function RootLayout(
 
@@ -23,6 +23,7 @@ export default function RootLayout(
     // <ThemeProvider enableSystem={true} attribute="class">
       <ClerkProvider>
         <html lang="en">
+          <link rel="icon" href="/Logo2.png" sizes="any" />
         <body style={{ height: '100vh' }}>
 
             {<nav className="bg-white border-gray-200 dark:bg-gray-900">
